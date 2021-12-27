@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ddd;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.developer img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.developer{
+  float: left;
+    width:33%;  
+    text-align: center;
+    margin-bottom: 50px;
+}
+.developer h2{
+    margin-top: 20px;
+}
+.developer-item h1{
+    font-size: 48px;
+    color: orange;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+section#devloperBg {
+    background: #282626;
+    color: #fff;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+/*students section*/
+.students-item{
+    margin-top: 80px;
+}
+.students img{
+    width: 150px;
+    height: 150px;
+    border-radius:100% ;
+
+}
+.students{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+}
+section#studentsBg {
+    background-color: #6e6e6e;
+    overflow: hidden;
+    color: #fff;
+    font-family: monospace;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+.students h2{
+    margin-top: 20px;
+}
+.students-item h1{
+    font-size: 48px;
+    color: orange;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
+
+/*table section*/
+.phoneBook-list table{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.phoneBook tbody img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.table thead{
+    background-color:  #282626;
+    color: #fff;
+    
+}
+.table thead th{
+    padding: 15px;
+}
+.phoneBook .table tbody:nth-child(odd){
+    background-color: #767676;
+    color: #fff;
+    overflow: hidden;
+}
+section#phoneBg {
+    background-color: #282626;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.phoneBook h1 {
+    text-align: center;
+    font-size: 48px;
+    color: orange;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
